@@ -1,0 +1,87 @@
+/* Header general */
+.header {
+    display: flex;
+    justify-content: space-between; /* Separare între secțiunea stângă și cea dreaptă */
+    align-items: center;
+    padding: 0 40px; /* Spațiu lateral */
+    background-color: #00236D; /* Fundal albastru */
+    height: 97px;
+    box-shadow: 0px 1px 14px 0px #021B2C; /* Umbră pentru efect */
+    border-radius: 0 0 25px 25px; /* Colțuri rotunjite jos */
+  }
+  
+  /* Gruparea din stânga */
+  .left-section {
+    display: flex;
+    align-items: center; /* Aliniere verticală */
+    gap: 30px; /* Spațiu între logo și linkuri */
+  }
+  
+  /* Logo */
+  .logo {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .logo-highlight {
+    color: #4CAF50; /* Verde pentru "IT" */
+  }
+
+  .logo-image {
+    width: 50.51px;
+    height: 55.96px;
+    object-fit: contain; /* Păstrează proporțiile imaginii */
+    margin-left: 5px; /* Adaugă spațiu între "chef" și imagine */
+  }
+  
+  /* Bara de navigație */
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Spațiere între linkuri */
+  }
+  
+  .nav-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none; /* Fără subliniere */
+    padding: 5px 15px;
+    background: none; /* Fără fundal */
+    border: none; /* Fără bordură inițială */
+    transition: all 0.3s ease; /* Tranziție pentru hover */
+  }
+  
+  .nav-item:hover {
+    border: 2px solid white; /* Bordură albă la hover */
+    border-radius: 20px; /* Colțuri rotunjite */
+    background: none; /* Fără fundal */
+  }
+  
+  /* Butoanele de autentificare */
+  .auth-buttons {
+    display: flex;
+    gap: 10px; /* Spațiu între butoane */
+  }
+  
+  .btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 15px;
+    background: none; /* Fundal transparent */
+    color: white;
+    border: none; /* Fără bordură inițială */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Tranziție pentru hover */
+  }
+  
+  .btn:hover {
+    border: 2px solid white; /* Bordură albă la hover */
+    border-radius: 20px; /* Colțuri rotunjite */
+    background: none; /* Fără fundal */
+    color: white; /* Text alb */
+  }
+  

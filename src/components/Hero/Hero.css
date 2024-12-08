@@ -1,0 +1,55 @@
+/* Secțiunea Hero */
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Ocupă întreaga înălțime a ecranului */
+    color: white;
+    overflow: hidden; /* Ascunde marginile dacă imaginea depășește containerul */
+    background-color: transparent; /* Eliminăm fundalul negru pentru a face loc imaginii */
+}
+
+/* Imaginea de fundal */
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Imaginea acoperă întreaga secțiune */
+    z-index: 1; /* Imaginea trebuie să fie sub conținut */
+}
+
+/* Conținutul din Hero */
+.hero-content {
+    display: flex; /* Folosim flexbox pentru a pune elementele pe aceeași linie */
+    justify-content: center;
+    align-items: baseline; /* Aliniere la linia de bază a textului "chef" */
+    gap: 20px; /* Spațiu între textul "chef" și imaginea "IT" */
+    z-index: 2; /* Conținutul trebuie să fie deasupra fundalului */
+}
+
+/* Textul "chef" */
+.chef-text {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 128px;
+    font-weight: 700;
+    line-height: 156.03px;
+    text-align: justify;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black; /* Textul "chef" va fi acum negru */
+    padding: 10px; /* Adaugă un mic spațiu în jurul textului */
+    position: relative;
+    z-index: 2; /* Asigură că textul este deasupra fundalului */
+}
+
+/* Imaginea "IT" */
+.logo-it {
+    width: 229.46px; /* Dimensiunile corecte pentru imaginea "IT" */
+    height: 254.19px;
+    object-fit: contain; /* Asigură proporții corecte */
+    z-index: 3; /* Asigură că imaginea este vizibilă deasupra textului */
+}

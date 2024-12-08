@@ -1,0 +1,87 @@
+/* Container general */
+.contact-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Titlu */
+.contact-us h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #009C41;
+    margin-bottom: 20px;
+}
+
+/* Formular principal */
+.contact-form {
+    display: flex;
+    justify-content: space-evenly; /* Asigură distribuirea uniformă */
+    gap: 20px; /* Spațiu între secțiuni */
+    align-items: flex-start; /* Aliniază elementele sus */
+}
+
+/* Secțiunea din stânga */
+.form-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Secțiunea din dreapta */
+.form-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Micșorează spațiul între textarea și buton */
+    align-items: flex-start; /* Aliniază elementele la stânga */
+}
+
+/* Câmpuri First Name, Last Name, Email */
+.form-row input {
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid #009C41;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+/* Cadran Message */
+.form-message textarea {
+    
+    width: 100%;
+    height: 244px;
+    border: 2px solid #009C41;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    resize: none;
+}
+
+/* Buton Submit */
+.form-submit button {
+    width: 96px;
+    height: 31px;
+    background-color: #FFFFFF;
+    border: 2px solid #009C41;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #009C41;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-submit button:hover {
+    background-color: #009C41;
+    color: white;
+}
