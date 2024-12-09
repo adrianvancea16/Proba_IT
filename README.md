@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Pagina Web: ChefIT Vancea Adrian 321CD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Acest proiect este o pagină web simplă care include un **Header**, o **secțiune Hero** cu imagine pe fundal, și un **formular de login**. Este creat folosind HTML și CSS și poate fi folosit ca punct de pornire pentru un website mai complex.
 
-## Available Scripts
+## Funcționalități
+1. **Header Responsiv**:
+   - Include un logo, link-uri de navigare, și butoane de autentificare/înregistrare.
+   - Design modern cu stilizare prin CSS și efect de hover.
 
-In the project directory, you can run:
+2. **Secțiunea Hero**:
+   - Fundalul secțiunii Hero este o imagine care ocupă întreg ecranul.
+   - Textul central din secțiunea Hero este alb, cu un fundal semi-transparent pentru a îmbunătăți lizibilitatea.
+   - Secțiunea este complet responsivă.
 
-### `npm start`
+3. **Formular de Login**:
+   - Formular de autentificare simplu cu câmpuri pentru email și parolă.
+   - Stilizare elegantă, cu text alb pe fundal închis.
+   - Include un link pentru recuperarea parolei.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Structura Fişierelor
+###  **HTML**
+Codul HTML definește structura paginii:
+- **Header**: Conține logo-ul, link-uri de navigare, și butoane.
+- **Secțiunea Hero**: Conține o imagine pe fundal și un mesaj centralizat.
+- **Formularul de Login**: Include câmpurile de email și parolă.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pe langa acestea am implementat si functionalitati precum lista de retete resetarea parolei folosind un cont de google ce trimite emailuri si am folosit pe post de baza de date MongoDB
+In MongoDb in Login-tut am implementat colectiile users si Recipies unde am pus datele despre users si retetele. Mai mult am implementat si functionalitatea de
+adaugare poze a retetelor, poze care se vor stoca atat in baza de date cat si in folserul upload.
+Pe partea de back end aproape orice functionalitate a fost implementata, insa pe partea de front-end mai era de lucrat, in src din fiiserul Proba_IT cel  din 
+afara fisierului de back end am implementat front end ul paginii de login, dar m am focusat mai mult pe back end, cu putin timp in plus sigur reuseam de implementat si front-endul

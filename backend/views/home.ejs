@@ -7,6 +7,20 @@
 
 </head>
 <body>
-    <h1 style="text-align: center;">Welcome to Home Page</h1>
+    <h1 style="text-align: center;">Welcome to ChefIT</h1>
+
+    <header class="header">
+        <div class="left-section">
+          <nav class="nav-links">
+            <button class="btn nav-item" onclick="location.href='/recipes'">Recipes</button>
+            <button class="btn btn-register" onclick="location.href='/add-recipe'">Add Recipe</button>
+          </nav>
+        </div>
+      
+        <div class="auth-buttons">
+          <button class="btn btn-login" onclick="location.href='/login'">Logout</button>
+          <button class="btn btn-profile" onclick="location.href='/profile'">Profile</button>
+        </div>
+      </header>
 </body>
 </html>
