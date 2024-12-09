@@ -53,3 +53,25 @@
     object-fit: contain; /* Asigură proporții corecte */
     z-index: 3; /* Asigură că imaginea este vizibilă deasupra textului */
 }
+
+
+/* /Proba_IT
+├── /public
+├── /src
+    |_/components
+      |_Conatct
+        |
+        Contact.css
+        Contact.js
+
+    |
+    |
+    |
+├── package.json
+└── package-lock.json
+|__README.md
+|
+
+
+
+*/
